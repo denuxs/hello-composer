@@ -1,0 +1,20 @@
+{
+    "name": "denuxs/hello-composer",
+    "description": "A simple hello world composer package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Denis Lopez",
+            "email": "denuxs@gmail.com"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "require": {},
+    "autoload": {
+        "psr-4": {"denuxs\\HelloWorld\\": "src"}
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
